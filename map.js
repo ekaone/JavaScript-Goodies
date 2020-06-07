@@ -4,15 +4,12 @@
 //   { id: 3, city: "Tokyo" },
 // ]
 
-const obj = { a: 1, b: 2, c: 3 }
-
-// a funcbn
-// cst result = obj.map(result => result.city)
+const obj = { a: 1, b: 2, c: 3 };
 
 // Object.entries
 // const result = Object.entries(obj)
-const result = Object.entries(obj).map(([key, value]) => [key, value * 2])
-console.log(result)
+const result = Object.entries(obj).map(([key, value]) => [key, value * 2]);
+console.log(result);
 
 // Object keys
 // const result = Object.keys(obj).map(v => obj[v] *= 2)
