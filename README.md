@@ -13,6 +13,26 @@ console.log(list);
 // 2nd [ 7, 8, 4, 3, 6, 9, 5, 2, 1 ]
 ```
 
+### 🔎 [Slug](https://github.com/ekaone/JavaScript-Goodies/blob/master/objectEntriesSlug.js)
+```js
+const posts = {
+  "mountain-view": {
+    name: "Everest",
+    height: 8848
+  },
+  "building-world": {
+    name: "Burj Khalifa",
+    height: 828
+  }
+};
+
+const slugs = Object.entries(posts).map(([slug, { name, height }]) => {
+  return slug;
+});
+
+console.log(slugs); // [ 'mountain-view', 'building-world' ]
+```
+
 ### 🔎 [IIFE](https://github.com/ekaone/JavaScript-Goodies/blob/master/iife.js)
 ```js
 (function() {

@@ -12,3 +12,5 @@ const posts = {
 const slugs = Object.entries(posts).map(([slug, { name, height }]) => {
   return slug;
 });
+
+console.log(slugs); // [ 'mountain-view', 'building-world' ]
