@@ -3,7 +3,7 @@ Collection JavaScript goodies
 
 <img src="https://img.shields.io/badge/JavaScript-Goodies-Blue" alt="JS-Goodies" />
 
-## 🔎 [IIFE](https://github.com/ekaone/JavaScript-Goodies/blob/master/iife.js)
+### 🔎 [IIFE](https://github.com/ekaone/JavaScript-Goodies/blob/master/iife.js)
 ```js
 (function() {
   // ...
@@ -15,7 +15,7 @@ Collection JavaScript goodies
 
 ```
 
-## 🔎 [Map](https://github.com/ekaone/JavaScript-Goodies/blob/master/map.js)
+### 🔎 [Map](https://github.com/ekaone/JavaScript-Goodies/blob/master/map.js)
 ```js
 const obj = { a: 1, b: 2, c: 3 };
 
@@ -23,7 +23,7 @@ const result = Object.entries(obj).map(([key, value]) => [key, value * 2]);
 console.log(result);
 ```
 
-## 🔎 [Private Scope](https://github.com/ekaone/JavaScript-Goodies/blob/master/privateScopeFunction.js)
+### 🔎 [Private Scope](https://github.com/ekaone/JavaScript-Goodies/blob/master/privateScopeFunction.js)
 ```js
 const privateScope = (() => {
   const foo = "Foo";
