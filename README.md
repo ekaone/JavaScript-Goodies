@@ -3,6 +3,16 @@ Collection JavaScript goodies
 
 <img src="https://img.shields.io/badge/JavaScript-Goodies-Blue" alt="JS-Goodies" />
 
+### 🔎 [Array Shuffle](https://github.com/ekaone/JavaScript-Goodies/blob/master/arrayShuffle.js)
+```js
+let list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+list = list.sort(() => Math.random() - 0.5);
+
+console.log(list);
+// 1st [ 1, 9, 7, 8, 4, 2, 3, 5, 6 ]
+// 2nd [ 7, 8, 4, 3, 6, 9, 5, 2, 1 ]
+```
+
 ### 🔎 [IIFE](https://github.com/ekaone/JavaScript-Goodies/blob/master/iife.js)
 ```js
 (function() {
