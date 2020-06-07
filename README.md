@@ -19,10 +19,28 @@ Collection JavaScript goodies
 ```js
 const obj = { a: 1, b: 2, c: 3 };
 
-// Object.entries
-// const result = Object.entries(obj)
 const result = Object.entries(obj).map(([key, value]) => [key, value * 2]);
 console.log(result);
+```
+
+## 🔎 [Private Scope](https://github.com/ekaone/JavaScript-Goodies/blob/master/privateScopeFunction.js)
+```js
+const privateScope = (() => {
+  const foo = "Foo";
+  const bar = "Bar";
+  const printFoo = () => {
+    return `hi, i am ${foo}`;
+  };
+  const printBar = () => {
+    return `hi, i am ${bar}`;
+  };
+
+  return { printFoo, printBar };
+})();
+
+console.log(privateScope.printFoo()); // hi, i am Foo
+console.log(privateScope.printBar()); // hi, i am Bar
+console.log(privateScope.foo); // undefined
 ```
 
 ## Author
