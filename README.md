@@ -1,5 +1,4 @@
-# JavaScript-Goodies
-Collection <img src="https://img.shields.io/badge/JavaScript-Goodies-Blue" alt="JS-Goodies" />
+# <img src="https://img.shields.io/badge/JavaScript-Goodies-Blue" alt="JS-Goodies" />
 
 ### 🔎 [Array Shuffle](https://github.com/ekaone/JavaScript-Goodies/blob/master/arrayShuffle.js)
 ```js
