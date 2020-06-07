@@ -4,6 +4,16 @@ Collection JavaScript goodies
 <img src="https://img.shields.io/badge/JavaScript-Goodies-Blue" alt="JS-Goodies" />
 
 🔎 [IIFE](https://github.com/ekaone/JavaScript-Goodies/blob/master/iife.js)
+```js
+(function() {
+  // ...
+})();
+
+(() => {
+  // ...
+})();
+
+```
 
 🔎 [Map](https://github.com/ekaone/JavaScript-Goodies/blob/master/map.js)
 
