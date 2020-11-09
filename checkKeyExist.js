@@ -9,4 +9,4 @@ if ("red" in color) {
 }
 
 // with hasOwnProperty
-car.hasOwnProperty("red");
+console.log(color.hasOwnProperty("red"));
