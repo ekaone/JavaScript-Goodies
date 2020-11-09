@@ -4,4 +4,4 @@ const result = Object.keys(identity).map(key => {
   return identity[key];
 });
 
-console.log(result);
+console.log(result); // [ 'john doe', 'kalimantan', 31 ]
